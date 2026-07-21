@@ -107,8 +107,7 @@ function escapeHtml(str) {
 
 async function fetchParticipants() {
   try {
-    const snapshot =
-      await PARTICIPANTS_REF.orderByChild("created_at").once("value");
+    const snapshot = await PARTICIPANTS_REF.orderByChild("created_at").once("value");
     const data = snapshot.val();
     let participants = [];
     if (data) {
