@@ -127,10 +127,10 @@ body {
   height: 56px;            /* Altura fixa (quadrada) */
   object-fit: contain;     /* Mantém proporção sem distorcer */
   border-radius: 50%;      /* Formato circular */
-  background: rgba(255, 255, 255, 0.1); /* Fundo sutil para transparência */
+  background: rgba(142, 196, 4, 0.933); /* Fundo sutil para transparência */
   padding: 2px;            /* Pequeno espaçamento interno */
-  border: 2px solid rgba(52, 211, 153, 0.6); /* Borda verde esmeralda suave */
-  box-shadow: 0 0 12px rgba(52, 211, 153, 0.3); /* Brilho verde ao redor */
+  border: 2px solid rgba(118, 210, 13, 0.952); /* Borda verde esmeralda suave */
+  box-shadow: 0 0 12px rgba(92, 243, 5, 0.3); /* Brilho verde ao redor */
   flex-shrink: 0;          /* Impede que a imagem encolha em telas pequenas */
 }
 
@@ -158,7 +158,7 @@ body {
   font-size: 1.8rem;       /* Texto ligeiramente maior */
   background: linear-gradient(145deg, #ec3a0e, rgba(255, 60, 0, 0.125));
   /* Gradiente de laranja para transparente */
-  border: 1.5px solid #00f2ff; /* Borda ciano vibrante */
+  border: 1.5px solid #06f512; /* Borda ciano vibrante */
 }
 
 /* ===== TÍTULO DO EVENTO NO HEADER ===== */
@@ -182,7 +182,7 @@ body {
 
 /* ===== DATA DO EVENTO ===== */
 .event-date {
-  color: rgba(103, 232, 249, 0.7); /* Ciano com transparência */
+  color: rgba(94, 236, 6, 0.982); /* Ciano com transparência */
   font-size: 0.875rem;             /* 14px */
   font-weight: 500;                /* Médio */
   margin-top: 0.25rem;             /* Pequeno espaçamento do título */
